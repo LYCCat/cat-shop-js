@@ -13,7 +13,8 @@ import ElementPlus from 'element-plus'
 //     console.log(res)
 // }
 // )
-
+//引入初始化的样式文件
+import '@/styles/common.scss'
 const app = createApp(App)
 app.use(ElementPlus)
 app.use(createPinia())
