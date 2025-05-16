@@ -21,4 +21,9 @@ export default defineConfig([
   
   js.configs.recommended,
   ...pluginVue.configs['flat/essential'],
+   {
+    rules: {
+      'vue/multi-word-component-names': 'off'  // 关闭多单词命名限制[3,5](@ref)
+    }
+  }
 ])
