@@ -25,7 +25,7 @@
         </ul>
     </div>
    </nav>
-   
+
 </template>
 
 <script setup>
@@ -37,17 +37,19 @@ const isLogin=ref(null)
 
 <style lang="scss" scoped>
 .app-topnav{
-    background:#1dc779
+    background: #333;
+  width: 100%;
+
 }
 ul{
-    display: flex; 
+    display: flex;
     height: 53px;
     justify-content:flex-end;
     align-items:center;
 
     li{
         a{
-             padding: 0 15px;
+             padding: 0 10px;
              color:#cdcdcd;
              line-height:1;
              display:inline-block;
